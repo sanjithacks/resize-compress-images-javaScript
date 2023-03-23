@@ -1,0 +1,73 @@
+.download-btn-cn {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 99999;
+}
+.download-btn-cn a {
+  padding: 13px 22px;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 600px) {
+  .download-btn-cn {
+    left: 20px;
+  }
+  .download-btn-cn a {
+    font-size: 13px;
+    padding: 9px 15px;
+  }
+}
+
+/*.google-auto-placed {*/
+/*    display: none;*/
+/*}*/
+/*.sticky-bottom-ad {*/
+/*    position: fixed;*/
+/*    bottom: -120px;*/
+/*    left: 0px;*/
+/*    width: 100%;*/
+/*    padding: 5px 0;*/
+/*    max-height: 90px;*/
+/*    height: 100%;*/
+/*    z-index: 2147483647;*/
+/*    background: #fefefe;*/
+/*    box-shadow: 0 -6px 18px 0 rgba(9, 32, 76, 0.1);*/
+/*    transition: bottom 0.25s linear;*/
+/*}*/
+/*.sticky-bottom-ad.show {*/
+/*    bottom: 0px;*/
+/*}*/
+/*.sticky-bottom-ad.hide {*/
+/*    bottom: -90px;*/
+/*}*/
+/*.sticky-bottom-ad .arrow-icon{*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: -25px;*/
+/*    width: 55px;*/
+/*    height: 40px;*/
+/*    display: flex;*/
+/*    cursor: pointer;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    border-radius: 12px 0 0 0;*/
+/*    background: #fefefe;*/
+/*    box-shadow: 0 -6px 18px 0 rgba(9, 32, 76, 0.08);*/
+/*}*/
+/*.arrow-icon img {*/
+/*    width: 30px;*/
+/*}*/
+/*.sticky-bottom-ad .ad-content {*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    position: relative;*/
+/*    height: 100%;*/
+/*    margin: 0 10px;*/
+/*    width: 100%;*/
+/*}*/
